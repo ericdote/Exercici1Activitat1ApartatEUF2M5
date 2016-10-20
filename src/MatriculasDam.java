@@ -2,7 +2,7 @@
 public class MatriculasDam {
 
     public static int matricula(int numero) throws noEnteros {
-
+        //Calcula el precio de matricula en funcion del numeros de UF's
         int uf = 0, precio = 0;
 
         uf = numero;

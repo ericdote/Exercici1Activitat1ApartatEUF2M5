@@ -42,12 +42,13 @@ public class TestErrorMatricula {
     @Test
     public void hello() {
     }
-
+    //Test que devuelve el precio de matricula por menos de 12 UF's
     @Test
     public final void testMatriculaUfMenosDe12() throws noEnteros{
         assertEquals(330, MatriculasDam.matricula(11));
     }
-    
+    //Test que devuelve el precio de matricula por mas o igual a 12 UF's
+    @Test
     public final void testMatriculaUfMasDe12() throws noEnteros{
         assertEquals(380, MatriculasDam.matricula(30));
     }
